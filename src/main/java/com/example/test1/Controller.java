@@ -8,5 +8,6 @@ public class Controller {
     @PostMapping("/lilith")
     public String getLilith() {
         return "Lilith";
+
     }
 }
