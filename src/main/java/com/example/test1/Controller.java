@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
 
+
     @PostMapping("/lilith")
     public String getLilith() {
         return "Lilith";
